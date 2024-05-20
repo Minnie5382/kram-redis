@@ -1,5 +1,5 @@
 # Start with the official Redis image from the Docker Hub
-FROM redis:latest
+FROM redis:7.0.8
 
 # Set the password directly in the Dockerfile
 ENV REDIS_PASSWORD mooyaho
